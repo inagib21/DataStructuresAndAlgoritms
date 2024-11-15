@@ -21,13 +21,26 @@ def char_count(s):
             count[char] = 1
         else:
             count[char] += 1
+        print(count)
     return count
 
 
 print(anagrams('cats', 'tocs')) # -> False
 
-print(anagrams('monkeyswrite', 'newyorktimes')#True
-)
+#print(anagrams('monkeyswrite', 'newyorktimes')#True
+#)
+
+"""
+iteration 1 
+char_count(s1) is being compared to char_count(s2)
+
+char1("cats") == char2("tocs")
+
+at first iteration 
+
+
+
+"""
 
 
 
