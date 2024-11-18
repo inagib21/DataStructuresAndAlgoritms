@@ -19,7 +19,6 @@ class Solution:
                     # If a duplicate is found, return `True` immediately and exit the function.
         return False
         # If the loops finish without finding any duplicates, return `False` to indicate all elements are distinct.
-
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         
