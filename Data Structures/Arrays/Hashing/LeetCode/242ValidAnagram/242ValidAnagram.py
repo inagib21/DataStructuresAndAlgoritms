@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 """Explanation:
 Create an unordered map count to store the character frequencies. The key of the map represents a character, and the value represents its frequency.
 Iterate over each character x in string s. For each character, increment its frequency in the count map by using the count[x]++ expression.
